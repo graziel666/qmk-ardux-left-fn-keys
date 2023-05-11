@@ -63,9 +63,9 @@ STD_TRAILING_NONES
 #ifndef ARDUX_STD_LAYER_CUS_LEFT
 #define ARDUX_STD_LAYER_CUS_LEFT \
 STD_LEADING_NONES \
-KC_NO,            KC_VOLU,          KC_INS,           KC_MUTE,          \
+KC_NO,            KC_F1,          KC_F2,           KC_F3,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_TRNS,          KC_VOLD,          KC_PSCR,          KC_RSFT           \
+KC_TRNS,          KC_F4,          KC_F5,          KC_F6           \
 STD_TRAILING_NONES
 #endif
 
