@@ -15,6 +15,6 @@ COMB(combo_fn12,                  KC_F12,                         KCFN_F4, KCFN_
 
 // /////////
 // User remixes / tweaks -- these take precidence above all else
-#if __has_include("../remixes/combos/symbols.def")
-#include "../remixes/combos/symbols.def"
+#if __has_include("../remixes/combos/custom.def")
+#include "../remixes/combos/custom.def"
 #endif
