@@ -11,17 +11,6 @@ COMB(combo_fn10,                  KC_F10,                         KCFN_F5, KCFN_
 COMB(combo_fn11,                  KC_F11,                         KCFN_F4, KCFN_F2)
 COMB(combo_fn12,                  KC_F12,                         KCFN_F4, KCFN_F3)
 
-#ifdef ARDUX_SIZE_40P
-#ifdef ARDUX_HAND_LEFT
-COMB(combo_exclamation_40p,          ARDUX_EXCLAMATION,            KC_W, KC_S)
-COMB(combo_single_quote_40p,         KC_QUOT,                       LEFT_PARENTHETICALS, KC_D, KC_S)
-#endif
-#ifdef ARDUX_HAND_RIGHT
-COMB(combo_exclamation_40p,          ARDUX_EXCLAMATION,            KC_I, KC_K)
-COMB(combo_single_quote_40p,         KC_QUOT,                       RIGHT_PARENTHETICALS, KC_K, KC_L)
-#endif
-#endif // ARDUX_SIZE_40P
-
 #endif // DISABLE_DEFAULT_CUSTOM_COMBOS
 
 // /////////
