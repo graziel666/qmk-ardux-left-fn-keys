@@ -7,7 +7,7 @@
  *  ,-------------------.              ,-------------------.
  *  | T4 | T3 | T2 | T1 |   Top row    | T1 | T2 | T3 | T4 |
  *  |----+----+----+----|              |----+----+----+----|
- *  | B4 | B3 | B2 | B1 |  Bottom row  | B1 | B2 | B3 | B4 | 
+ *  | B4 | B3 | B2 | B1 |  Bottom row  | B1 | B2 | B3 | B4 |
  *  `-------------------'              `-------------------'
  */
 
@@ -36,6 +36,14 @@
 #define KNAV_T4 KC_PGUP
 #define KNAV_B2 KC_DOWN
 #define KNAV_B4 KC_PGDN
+
+//Custom layer
+#define KCFN_F1 KC_F1
+#define KCFN_F2 KC_F2
+#define KCFN_F3 KC_F3
+#define KCFN_F4 KC_F4
+#define KCFN_F5 KC_F5
+#define KCFN_F6 KC_F6
 
 #ifdef ARDUX_HAND_LEFT
 #define KNAV_T1 KC_END

@@ -12,6 +12,7 @@
 #include "layout/combos/control.def"
 #include "layout/combos/mods.def"
 #include "layout/combos/layers.def"
+#include "layout/combos/custom.def"
 #endif // DISABLE_ALL_DEFAULT_COMBOS
 
 #if __has_include("layout/remixes/remix_combos.def")
