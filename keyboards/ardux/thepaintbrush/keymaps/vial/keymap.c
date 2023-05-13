@@ -9,25 +9,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_BASE] = LAYOUT(
     KC_S, KC_T, KC_R, KC_A,
     KC_O, KC_I, KC_Y, KC_E
-)
+),
 
 [1] = LAYOUT(
-    TRANS, TRANS, TRANS, TRANS,
-    TRANS, TRANS, TRANS, TRANS
-)
+    _______, _______, _______, _______,
+    _______, _______, _______, _______
+),
 
 [2] = LAYOUT(
-    TRANS, TRANS, TRANS, TRANS,
-    TRANS, TRANS, TRANS, TRANS
-)
+    _______, _______, _______, _______,
+    _______, _______, _______, _______
+),
 
 [3] = LAYOUT(
-    TRANS, TRANS, TRANS, TRANS,
-    TRANS, TRANS, TRANS, TRANS
-)
+    _______, _______, _______, _______,
+    _______, _______, _______, _______
+),
 
 [4] = LAYOUT(
-    TRANS, TRANS, TRANS, TRANS,
-    TRANS, TRANS, TRANS, TRANS
-)
+    _______, _______, _______, _______,
+    _______, _______, _______, _______
+),
 };

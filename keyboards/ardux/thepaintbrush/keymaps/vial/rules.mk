@@ -6,13 +6,13 @@ VIAL_INSECURE = yes
 
 #here are the original things from rules.mk
 
-# COMMAND_ENABLE = no
-# CONSOLE_ENABLE = no
-# EXTRAKEY_ENABLE = yes
-# MOUSEKEY_ENABLE = yes
-# NKRO_ENABLE = yes
-# SPACE_CADET_ENABLE = no
-# TERMINAL_ENABLE = no
+COMMAND_ENABLE = no
+CONSOLE_ENABLE = no
+EXTRAKEY_ENABLE = yes
+#MOUSEKEY_ENABLE = yes
+NKRO_ENABLE = yes
+SPACE_CADET_ENABLE = no
+TERMINAL_ENABLE = no
 
 # Work around limitation with userland and the way we have 'dynamic' direct wiring
 #     This *should* live in config.h but KemoNine can't figure out how to check which keymap is in use at that level

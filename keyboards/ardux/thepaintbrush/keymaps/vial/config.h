@@ -10,6 +10,10 @@
 #define VIAL_UNLOCK_COMBO_COLS {0,1}
 
 #define VIAL_COMBO_ENTRIES 60
+#define DYNAMIC_KEYMAP_MACRO_COUNT 1
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+#define LAYER_STATE_8BIT
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x7E71
