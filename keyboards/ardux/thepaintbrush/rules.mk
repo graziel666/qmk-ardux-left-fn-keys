@@ -8,8 +8,10 @@ MOUSEKEY_ENABLE = yes
 NKRO_ENABLE = yes
 SPACE_CADET_ENABLE = no
 TERMINAL_ENABLE = no
-VIA_ENABLE = no
-LTO_ENABLE = no # We support arm qmk devices which are incompatabl with this avr specific option
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+LTO_ENABLE = yes
+# We support arm qmk devices which are incompatabl with this avr specific option
 
 # Work around limitation with userland and the way we have 'dynamic' direct wiring
 #     This *should* live in config.h but KemoNine can't figure out how to check which keymap is in use at that level
@@ -22,6 +24,14 @@ ifeq ($(KEYBOARD), ardux/thepaintbrush)
 	ifeq ($(strip $(ARDUX_HAND)), left)
 	   OPT_DEFS += $(PINS_HAND_LEFT)
 	endif
+
+	ifeq ($(KEYMAP), vial)
+		OPT_DEFS += $(PINS_HAND_LEFT)
+	endif
+	ifeq ($(strip $(ARDUX_HAND)), vial)
+	   OPT_DEFS += $(PINS_HAND_LEFT)
+	endif
+
 
 	ifeq ($(KEYMAP), right)
 		OPT_DEFS += $(PINS_HAND_RIGHT)
